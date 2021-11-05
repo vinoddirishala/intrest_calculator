@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IntrestCalculator">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.Dashboard"></activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
