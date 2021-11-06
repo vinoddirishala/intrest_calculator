@@ -2,4 +2,12 @@
     <string name="app_name">Interest Calculator</string>
     <string name="interest_calculator_colored"><b><font color="black">Interest</font><font color="red">Calculator</font></b></string>
     <string name="interest_calculations_at_fingertips">interest calculations at fingertips</string>
+    <string name="add">add</string>
+    <string name="addNewInterest">Add Interest</string>
+    <string name="name">Person name</string>
+    <string name="date">Date of interest amount taken</string>
+    <string name="amount">Amount of interest</string>
+    <string name="interest">Interest (per 100)</string>
+    <string name="addEntry">Add Entry</string>
+    <string name="no_records_found">No records found...!!</string>
 </resources>

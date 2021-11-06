@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/twenty_dp"
+    tools:context=".ui.activity.AddInterest">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center_vertical"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_person"
+        android:layout_marginTop="@dimen/twelve_dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:imeOptions="actionNext"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/eight_dp"
+            android:id="@+id/personName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:hint="@string/name"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center_vertical"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_date"
+        android:layout_marginTop="@dimen/twelve_dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:imeOptions="actionNext"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/eight_dp"
+            android:id="@+id/dateInterestTaken"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:hint="@string/date"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center_vertical"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_amount"
+        android:layout_marginTop="@dimen/twelve_dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:imeOptions="actionNext"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/eight_dp"
+            android:id="@+id/amountTaken"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:hint="@string/amount"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_gravity="center_vertical"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_percentage"
+        android:layout_marginTop="@dimen/twelve_dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:imeOptions="actionDone"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/eight_dp"
+            android:id="@+id/interestPercentage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:hint="@string/interest"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addNewEntry"
+        android:layout_marginTop="@dimen/fiftySixe_dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/purple_700"
+        app:strokeWidth="1dp"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:text="@string/addEntry"
+        android:layout_height="@dimen/fiftySixe_dp"/>
+
+
+
+
+
+</LinearLayout>
